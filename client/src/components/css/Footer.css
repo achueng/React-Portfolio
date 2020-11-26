@@ -9,8 +9,8 @@ footer {
     font-weight: lighter;
     color: #000000;
     position: absolute;
-    top: 0rem;
-    right: 1.5rem;
+    top: -1rem;
+    right: 1rem;
 }
 
 .credit:hover,
