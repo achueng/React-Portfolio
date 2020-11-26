@@ -1,0 +1,9 @@
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+#portrait {
+    width: 300px;
+    height: 300px;
+    margin-right: 1rem;
+}
