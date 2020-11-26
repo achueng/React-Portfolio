@@ -7,7 +7,7 @@ function Layout(props) {
         <Container className="custom-container">
             <Row>
                 <Col md={8}>
-                    <Jumbotron>
+                    <Jumbotron className="custom-jumbotron">
                         {props.children}
                     </Jumbotron>
                 </Col>

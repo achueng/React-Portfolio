@@ -2,3 +2,7 @@
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
+
+.custom-jumbotron {
+    background-color: #fad3e0 !important;
+}
