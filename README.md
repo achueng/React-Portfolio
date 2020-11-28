@@ -2,9 +2,9 @@
 
 Hello, my name is Agnes. This is a portfolio about me created using React. 
 
-[Click here]() to learn more about me!
+[Click here](https://mighty-scrubland-82457.herokuapp.com/) to learn more about me!
 
 The portfolio is responsive throughout many devices.
-![Computer]()
-![Tablet]()
-![Phone]()
+![Computer](./client/public/assets/portfolio-comp.png)
+![Tablet](./client/public/assets/portfolio-tablet.png)
+![Phone](./client/public/assets/portfolio-phone.png)
