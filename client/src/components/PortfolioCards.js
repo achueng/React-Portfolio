@@ -9,7 +9,7 @@ function PortfolioCards() {
             <h1 className="display-4">Portfolio</h1>
             <hr className="my-4" />
             <Row>
-                {projects.map(project => <Cards data={project}/>)}
+                {projects.map(project => <Cards key={projects.indexOf(project)} data={project}/>)}
             </Row>
         </React.Fragment>
     )
