@@ -3,18 +3,17 @@ import { Card, Col } from "react-bootstrap";
 
 function Cards(props) {
     let project = props.data;
-    console.log(project);
     return (
-        <Col sm={12} lg={5}>
+        <Col sm={12} lg={6}>
             <Card className="p-1 mb-2 mx-auto">
-                <Card.Img variant="top" src="" alt=""/>
+                <Card.Img variant="top" src={process.env.PUBLIC_URL + "assets/" + project.image} alt={project.title}/>
                 <Card.Body>
-                    <Card.Title>Project Title</Card.Title>
+                    <Card.Title>{project.title}</Card.Title>
                     <Card.Text>
-                            Description
+                    {project.description}
                     </Card.Text>
-                    <Card.Link href="#">Check it out!</Card.Link>
-                    <Card.Link href="#">Github Repo</Card.Link>
+                    <Card.Link href={project.link} target="_blank">Check it out!</Card.Link>
+                    <Card.Link href={project.repo} target="_blank">Github Repo</Card.Link>
                 </Card.Body>
             </Card>
         </Col>
