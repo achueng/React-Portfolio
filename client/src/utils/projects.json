@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Password Generator",
+        "image": "Password-Generator.png",
+        "description": "This is a password generator application.",
+        "link": "https://achueng.github.io/Password-Generator/",
+        "repo": "https://github.com/achueng/Password-Generator"
+    },
+    {
+        "title": "Chinese Linguistics Quiz",
+        "image": "Chinese-Ling-Quiz.png",
+        "description": "This project is a single page quiz application.",
+        "link": "https://achueng.github.io/Chinese-Ling-Quiz/",
+        "repo": "https://github.com/achueng/Chinese-Ling-Quiz"
+    },
+    {
+        "title": "Day Planner",
+        "image": "Day-Planner.png",
+        "description": "This is a work day planner application.",
+        "link": "https://achueng.github.io/Day-Planner/",
+        "repo": "https://github.com/achueng/Day-Planner"
+    },
+    {
+        "title": "Moody Music",
+        "image": "Moody-Music.png",
+        "description": "This is an application that takes in the user's mood, then provides a song that corresponds to that mood.",
+        "link": "https://ckalama.github.io/Moody_Music_Project/",
+        "repo": "https://github.com/achueng/Moody_Music_Project"
+    },
+    {
+        "title": "Budget Tracker",
+        "image": "Budget-Tracker.png",
+        "description": "This is a budget tracking application that allows users to add transactions online and offline.",
+        "link": "https://nameless-taiga-26219.herokuapp.com/",
+        "repo": "https://github.com/achueng/Budget-Tracker"   
+    },
+    {
+        "title": "Music Rater",
+        "image": "Music-Rater.png",
+        "description": "Music Rater searches and charts songs, artists, and albums from all users, and orders it by popularity.",
+        "link": "https://music-rater.herokuapp.com/",
+        "repo": "https://github.com/achueng/Music-Rater"
+    }
+]
