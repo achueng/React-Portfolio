@@ -4,16 +4,22 @@ import "./css/ContactInfo.css";
 
 function ContactInfo() {
     return (
-        <Card className="py-3 contact-card">
+        <Card className="py-3 sticky-top contact-card">
             <Row>
                 <Col md={{ span: 8, offset: 2 }}>
-                    <Image src="https://picsum.photos/100/100" roundedCircle className="my-2 mx-auto"/>
+                    <a href="" alt="">
+                        <Image src="https://picsum.photos/100/100" alt="" roundedCircle className="my-2 mx-auto"/>
+                    </a>
                 </Col>
                 <Col md={{ span: 8, offset: 2 }}>
-                    <Image src="https://picsum.photos/100/100" roundedCircle className="my-2 mx-auto"/>
+                    <a href="" alt="">
+                        <Image src="https://picsum.photos/100/100" alt="" roundedCircle className="my-2 mx-auto"/>
+                    </a>
                 </Col>
                 <Col md={{ span: 8, offset: 2 }}>
-                    <Image src="https://picsum.photos/100/100" roundedCircle className="my-2 mx-auto"/>
+                    <a href="" alt="">
+                        <Image src="https://picsum.photos/100/100" alt="" roundedCircle className="my-2 mx-auto"/>
+                    </a>
                 </Col>
             </Row>
         </Card>
