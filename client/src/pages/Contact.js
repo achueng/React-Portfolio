@@ -4,7 +4,8 @@ import ContactForm from "../components/ContactForm";
 import API from "../utils/API";
 
 function Contact() {
-    const [formState, setFormState] = useState({})
+    const [formState, setFormState] = useState({});
+    const [successState, setSuccessState] = useState(false);
 
     function handleInputChange(event) {
         const { name, value } = event.target;
@@ -13,8 +14,9 @@ function Contact() {
 
     function handleFormSubmit(event) {
         event.preventDefault();
-        API.postContacts(formState).then(res => {
-            setFormState(formState)
+        API.postContacts(formState).then(() => {
+            setFormState(formState);
+            setSuccessState(!successState);
         }).catch(err => console.log(err));
     }
 
@@ -23,6 +25,7 @@ function Contact() {
             <ContactForm
             handleInputChange = {handleInputChange}
             handleFormSubmit = {handleFormSubmit}
+            successState = {successState}
             />
         </Layout>
     )
