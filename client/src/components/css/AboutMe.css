@@ -7,3 +7,10 @@ h1 {
     height: 300px;
     margin-right: 1rem;
 }
+
+@media screen and (max-width: 360px) {
+    #portrait {
+        height: 200px;
+        width: 200px;
+    }
+}
