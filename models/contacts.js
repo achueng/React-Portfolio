@@ -10,7 +10,9 @@ const contactsSchema = new Schema(
       required: "Enter your name"
     },
     email: {
-      type: email,
+      type: String,
+      trim: true,
+      lowercase: true,
       unique: true,
       match: [/.+@.+\..+/, "Please enter a valid e-mail address"],
       required: "Enter your email"
