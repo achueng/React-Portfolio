@@ -46,6 +46,7 @@ function ContactForm(props) {
                 >
                     Submit
                 </Button>
+                {/* Condition that shows success message when successState is true */}
                 {(props.successState) ? (<span className="ml-3 small text-success">
                     We received your contact form!
                 </span>) : (null)}
