@@ -6,17 +6,17 @@ function ContactInfo() {
     return (
         <Card className="py-3 sticky-top contact-card">
             <Row>
-                <Col md={12}>
+                <Col sm={4} md={12}>
                     <a href="" alt="">
                         <Image src="https://picsum.photos/80/80" alt="" roundedCircle className="icons my-2 mx-auto"/>
                     </a>
                 </Col>
-                <Col md={12} className="justify-content-center">
+                <Col sm={4} md={12} className="justify-content-center">
                     <a href="" alt="">
                         <Image src="https://picsum.photos/80/80" alt="" roundedCircle className="icons my-2 mx-auto"/>
                     </a>
                 </Col>
-                <Col md={12}>
+                <Col sm={4} md={12}>
                     <a href="" alt="">
                         <Image src="https://picsum.photos/80/80" alt="" roundedCircle className="icons my-2 mx-auto"/>
                     </a>
