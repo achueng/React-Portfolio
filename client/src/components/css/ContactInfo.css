@@ -16,6 +16,20 @@
     }
 }
 
+@media screen and (max-width: 430px) {
+    .icons {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .icons {
+        height: 50px;
+        width: 50px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .icons {
         height: 80px;
