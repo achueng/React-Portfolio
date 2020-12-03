@@ -5,4 +5,27 @@
 }
 .icons {
     display: block;
+    height: 70px;
+    width: 70px;
+}
+
+@media screen and (max-width: 767px) {
+    .icons {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .icons {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .icons {
+        height: 100px;
+        width: 100px;
+    }
 }
