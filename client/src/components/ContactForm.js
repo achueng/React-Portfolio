@@ -46,6 +46,9 @@ function ContactForm(props) {
                 >
                     Submit
                 </Button>
+                {(props.successState) ? (<span className="ml-3 small text-success">
+                    We received your contact form!
+                </span>) : (null)}
             </Form>
         </React.Fragment>
     )
